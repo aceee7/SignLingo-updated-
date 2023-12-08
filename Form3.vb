@@ -64,4 +64,10 @@ Public Class Form3
             increaseTimer.Enabled = False
         End If
     End Sub
+
+    Private Sub Label6_Click(sender As Object, e As EventArgs) Handles Label6.Click
+        progress.Show()
+        Me.Hide()
+
+    End Sub
 End Class
